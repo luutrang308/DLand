@@ -1,0 +1,16 @@
+@font-face{
+	src: url('../fonts/SVN-Helvetica Neue.ttf');
+	font-family: VN-Helvetica;
+}
+@font-face{
+	src: url('../fonts/times.ttf');
+	font-family: times;
+}
+@font-face{
+	src: url('../fonts/SVN-Poppins-Regular.ttf');
+	font-family:SVN-Poppins;
+}
+@font-face{
+	src: url('../fonts/UTM Times.ttf');
+	font-family: Times;
+}
