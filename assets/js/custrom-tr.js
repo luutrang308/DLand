@@ -72,3 +72,27 @@ $('.slider-tab-us-mobi').slick({
   dots: false,
   slidesToShow: 1,
 });
+$('.block__title').click(function(event) {
+  if($('.block').hasClass('one')){
+    $('.block__title').not($(this)).removeClass('active');
+    $('.block__text').not($(this).next()).slideUp(300);
+  }
+  $(this).toggleClass('active').next().slideToggle(300);
+});
+$(".close").click(function(){
+  $(".slider-popup").css("display","none");
+});
+$(".images-for .item").click(function(){
+  $(".slider-popup").css("display","block");
+});
+
+$('.block-title').click(function(event) {
+  if($('.block-mb').hasClass('one')){
+    $('.block-title').not($(this)).removeClass('active');
+    $('.block-text').not($(this).next()).slideUp(300);
+  }
+  $(this).toggleClass('active').next().slideToggle(300);
+});
+$(".icon-menu").click(function(){
+  $(".sub-menu").fadeToggle("slow");
+})
