@@ -382,6 +382,10 @@
 	.slider-homepage .slick-dots li.slick-active button:before{
 		background: #fff;
 		border-radius: 50%;
+		width: 10px;
+	    height: 10px;
+	    line-height: 11px;
+	    left: 5px;
 	}
 	.slider-homepage .slick-dots li.slick-active button{
 		background: transparent;
@@ -634,4 +638,25 @@
 	.slider-video .slick-prev img{
 		padding: 12px 4px;
 	}
+}
+
+.slider-project .item {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0px;
+  text-align: center;
+}
+.slider-project .item:after {
+	content: '';
+	position: absolute;
+	width: 1100%;
+	height: 1100%;
+	top: 0;
+	right: -500%;
+	background: rgba(255,255,255,.8);
+	z-index: -1;
+	transform: rotate(45deg);
+	transform-origin: 48% 42%;
 }

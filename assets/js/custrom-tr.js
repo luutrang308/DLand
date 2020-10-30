@@ -24,6 +24,9 @@ $(document).ready(function(){
     $('.search-menu form').fadeToggle('slow');/*
     $('.search-menu ').addClass(' search-menu-active');*/
   });
+  $('.close-mb').click(function(){
+    $('.sub-menu').hide();
+  });
   $('.slider-video .item').click(function(){
     $(this).find(".thumnail").css("display","none");
   });
@@ -45,6 +48,31 @@ $(document).ready(function(){
         }
       },
     ]
+  });
+  $('.slider_img_project').slick({
+    dots: false,
+    slidesToShow: 1,
+    prevArrow:"<button class='prev slick-prev'><img class='left-arrow ' src='./assets/img/11.png' alt=''></button>",
+    nextArrow:"<button class='next slick-next'><img class='right-arrow ' src='./assets/img/10.png' alt=''></button>",
+    responsive:[
+      {
+        breakpoint: 765,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+          prevArrow:"<button class='prev slick-prev'><img class='left-arrow ' src='./assets/img/76.png' alt=''></button>",
+          nextArrow:"<button class='next slick-next'><img class='right-arrow ' src='./assets/img/77.png' alt=''></button>",
+        }
+      },
+    ]
+  });
+  $('.slider_hot_new').slick({
+    dots: false,
+    slidesToShow: 1,
+    prevArrow:"<button class='prev slick-prev'><img class='left-arrow ' src='./assets/img/91.png' alt=''></button>",
+    nextArrow:"<button class='next slick-next'><img class='right-arrow ' src='./assets/img/91.png' alt=''></button>",
   });
   $(document).ready(function(){
     $('.your-class').slick({
