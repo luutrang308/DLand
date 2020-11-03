@@ -74,6 +74,21 @@ $(document).ready(function(){
     prevArrow:"<button class='prev slick-prev'><img class='left-arrow ' src='./assets/img/91.png' alt=''></button>",
     nextArrow:"<button class='next slick-next'><img class='right-arrow ' src='./assets/img/91.png' alt=''></button>",
   });
+  $('.slider_giaithuong').slick({
+    dots: true,
+    slidesToShow: 4,
+    prevArrow:"<button class='prev slick-prev'><img class='left-arrow ' src='./assets/img/130.png' alt=''></button>",
+    nextArrow:"<button class='next slick-next'><img class='right-arrow ' src='./assets/img/131.png' alt=''></button>",
+  });
+  $('.slider_highlights').slick({
+    dots: true,
+    slidesToShow: 1,
+    prevArrow:"<button class='prev slick-prev'><img class='left-arrow ' src='./assets/img/130.png' alt=''></button>",
+    nextArrow:"<button class='next slick-next'><img class='right-arrow ' src='./assets/img/131.png' alt=''></button>",
+  });
+  $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+    $('.slider_highlights').slick('setPosition');
+  });
   $(document).ready(function(){
     $('.your-class').slick({
       infinite: true,
