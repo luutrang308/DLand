@@ -1366,6 +1366,16 @@
 </div>
 <script type="text/javascript" src="./assets/js/wow.min.js"></script>
 <script type="text/javascript" src="./assets/js/custrom-tr.js"></script>
+<script>
+  $(function () {
+    $('#myTabParent a[data-toggle=tab]').on('shown.bs.tab', function(e){
+        if(e.target.getAttribute('href') == '#tab_3'){
+            $("#myTabDocumentChild").tab('show');
+            $("#myTabDocumentChild li:first-child a").tab('show')
+        }
+    })
+  })
+</script>
 </body>
 </html>
 

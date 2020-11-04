@@ -59,6 +59,14 @@
 	.footer-1 .hotline-footer a{
 		padding: 6px 6px 6px 60px;
 	}
+	.form-element h3{
+		font-size: 22px;
+    	margin-bottom: 0;
+	}
+	.form-element p{
+		font-size: 16px;
+    	margin-bottom: 0;
+	}
 }
 /* css 1366  */
 
@@ -154,11 +162,14 @@
 		height: auto;
 		width: auto;
 	}
-	.form-element h3{
-		font-size: 24px;
-	}
 	.form-element{
-		padding-top: 10px;
+		padding: 10px 30px 20px 30px;
+	}
+	.form-element h3{
+		font-size: 18px;
+	}
+	.form-element p{
+		font-size: 14px;
 	}
 	.footer-1 .hotline-footer a{
 		padding: 3px 3px 3px 60px;
@@ -166,6 +177,15 @@
 	}
 	.footer-1 .hotline-footer a img{
 		padding: 1px 10px;
+	}
+	.new-item .content-news .title-news a{
+		font-size: 18px;
+	}
+	.new-item .content-news .title-news p{
+		font-size: 14px;
+	}
+	.new-item .content-news .see-detail a{
+		font-size: 16px;
 	}
 	
 }
