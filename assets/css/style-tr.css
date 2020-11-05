@@ -4046,7 +4046,7 @@ body {
 .preview_img .close_preview_img {
   position: absolute;
   top: 10%;
-  left: 80%;
+  left: 90%;
   transform: translate(-50%, 0%);
   color: #000;
   background: #fff;
@@ -4061,7 +4061,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80%;
+  width: 60%;
   box-shadow: 0 0px 14px 2px #000;
 }
 .preview_img .slider_preview_img .item {
@@ -4111,6 +4111,10 @@ body {
   height: 50px;
   line-height: 50px;
   text-align: center;
+}
+.preview_video .close_preview_video:hover {
+  background: grey;
+  transition: 0.5s;
 }
 .preview_video .video {
   position: absolute;

@@ -111,8 +111,8 @@ $(document).ready(function(){
   $(".close_preview_img").click(function(){
     $(".preview_img").hide();
   });
-  $(".close_preview_video").click(function(){
-    $(".list_grid_video .gird_video_item .preview_video").hide();
+  $('.preview_video').click(function(){
+    $(this).css('display','none !important');
   });
  
  

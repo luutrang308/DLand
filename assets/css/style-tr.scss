@@ -4103,7 +4103,7 @@ body{
     .close_preview_img{
     	position: absolute;
 	    top: 10%;
-	    left: 80%;
+	    left: 90%;
 	    transform: translate(-50%, 0%);
 	    color: #000;
 	    background: #fff;
@@ -4118,7 +4118,7 @@ body{
     	top: 50%;
     	left: 50%;
     	transform: translate(-50%, -50%);
-    	width: 80%;
+    	width: 60%;
     	box-shadow: 0 0px 14px 2px #000;
     	.item{
     		width: 100%;
@@ -4167,6 +4167,10 @@ body{
 	    height: 50px;
 	    line-height: 50px;
 	    text-align: center;
+	    &:hover{
+	    	background: grey;
+	    	transition: 0.5s;
+	    }
     }
     .video{
     	position: absolute;
