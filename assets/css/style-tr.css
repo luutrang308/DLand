@@ -650,6 +650,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 30px;
+  padding-bottom: 80px;
 }
 
 .title-img {
@@ -758,7 +759,7 @@ body {
   background-repeat: no-repeat;
   width: 50%;
   float: left;
-  padding: 100px 50px 100px 50px;
+  padding: 100px 50px 102px 50px;
 }
 
 .section-im-dland {
@@ -902,7 +903,7 @@ body {
 
 .nav-tabs-news_5 {
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 55px;
 }
 .nav-tabs-news_5 .nav-tabs {
   width: 60%;
@@ -968,7 +969,7 @@ body {
   height: 6px;
   bottom: 0;
   left: 0;
-  background: #CAA67E;
+  background: linear-gradient(90deg, #BF9669 0%, #FCDCB9 49.21%, #BF9669 100%);
   opacity: 0;
 }
 .new-item:hover {
@@ -1099,7 +1100,7 @@ body {
 }
 
 .section-news {
-  padding-top: 50px;
+  padding-top: 95px;
   background-image: url(./../img/84.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -2432,7 +2433,7 @@ body {
   overflow: hidden;
 }
 .img_daily .box_img img {
-  width: 100%;
+  opacity: 0.8;
 }
 .img_daily .box_img:after {
   content: "";
@@ -2452,7 +2453,7 @@ body {
   margin-bottom: 60px;
 }
 .section_daily .form-element {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .section_img_project_title {
@@ -2513,6 +2514,10 @@ body {
 .slider_hot_new .item .date-dervice .date span:before {
   background: #F6E7CE;
 }
+.slider_hot_new .item .content-news .title-news h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .slider_hot_new .item .content-news .title-news h4 a {
   font-family: SVN-Poppins;
   font-style: normal;
@@ -2537,6 +2542,7 @@ body {
 .slider_hot_new .item .content-news .see-detail {
   display: inline-block;
   float: right;
+  margin-top: 70px;
 }
 .slider_hot_new .item .content-news .see-detail a {
   background: linear-gradient(90deg, #8D6139 -18.24%, #EECFA7 100%);
@@ -3025,7 +3031,7 @@ body {
 }
 
 .vitrituyendung_element {
-  margin-top: -28%;
+  margin-top: -30%;
   /*background: #fff;*/
 }
 .vitrituyendung_element .title-img-dark img {
@@ -3034,6 +3040,7 @@ body {
 
 .form_vttd {
   text-align: center;
+  margin-top: 30px;
 }
 
 .select_vttd {
@@ -3114,7 +3121,7 @@ body {
   margin: auto;
   background: #fff;
   margin-top: 35px;
-  margin-bottom: 70px;
+  margin-bottom: 0px;
 }
 .table_tuyendung_1 tr:first-child {
   background: linear-gradient(90deg, #C6A177 0%, #FFE9D0 49.63%, #C79E70 99.27%) !important;
@@ -3270,6 +3277,7 @@ body {
 
 .section_detail_tuyendung .vitrituyendung_element {
   margin-top: -16%;
+  padding-bottom: 70px;
 }
 
 .nav-tabs-news-thuvien .nav-tabs {
@@ -3564,6 +3572,7 @@ body {
   -webkit-line-clamp: 11;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  margin-top: 30px;
 }
 .about_us_element .img_about_us {
   position: absolute;
@@ -3576,7 +3585,7 @@ body {
   position: absolute;
   content: url(./../img/123.png);
   right: 0;
-  top: 0;
+  top: -70px;
 }
 .about_us_element .img_about_us:after {
   position: absolute;
@@ -3599,12 +3608,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  padding-top: 120px;
+  padding-top: 137px;
 }
 .section_3:before {
   position: absolute;
   content: "";
-  background: #39384B;
+  background: #242335;
   top: 0;
   left: 0;
   width: 100%;
@@ -3649,7 +3658,7 @@ body {
   object-fit: cover;
 }
 .section_3 .content_element .item_img_left .text {
-  width: 65%;
+  width: 70%;
   float: right;
   padding-top: 50px;
   padding-right: 100px;
@@ -3693,7 +3702,7 @@ body {
   object-fit: cover;
 }
 .section_3 .content_element .item_img_right .text {
-  width: 65%;
+  width: 70%;
   float: left;
   padding-top: 50px;
   padding-left: 100px;
@@ -3721,8 +3730,11 @@ body {
   height: 780px;
   border-bottom: none;
 }
+.section_3 .content_element .item_img_left_long .text p:nth-child(5) {
+  margin-top: 30px;
+}
 .section_3 .content_element .item_img_left_long .text p:nth-child(n+5) {
-  margin-left: -315px;
+  margin-left: -275px;
 }
 
 .section_giaithuong {
@@ -3750,7 +3762,7 @@ body {
   top: 50px;
 }
 .section_giaithuong .slider_giaithuong .slick-next {
-  right: 24px;
+  right: 15px;
   background: #0000004d;
   width: 33px;
   height: 83px;
@@ -3762,7 +3774,7 @@ body {
   background: #0000004d;
 }
 .section_giaithuong .slider_giaithuong .slick-prev {
-  left: 0px;
+  left: 15px;
   background: #0000004d;
   width: 33px;
   height: 83px;
@@ -4558,7 +4570,7 @@ body {
   border: none;
   width: auto;
   margin-right: 10px;
-  width: 100%;
+  width: auto;
 }
 .info_yourself tr td input:focus {
   outline: none;

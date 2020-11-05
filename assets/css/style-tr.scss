@@ -655,6 +655,7 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 30px;
+	padding-bottom: 80px;
 }
 .title-img{
 	width: 100%;
@@ -761,7 +762,7 @@ body{
 	background-repeat: no-repeat;
 	width: 50%;
 	float:left;
-	padding: 100px 50px 100px 50px;
+	padding: 100px 50px 102px 50px;
 }
 .section-im-dland{
 	display: inline-block;
@@ -903,7 +904,7 @@ body{
 }
 .nav-tabs-news_5{
 	margin-bottom: 30px;
-	margin-top: 30px;
+	margin-top: 55px;
 	.nav-tabs{
 		width: 60%;
     	margin: auto;
@@ -969,7 +970,7 @@ body{
 		height: 6px;
 		bottom: 0;
 		left:0;
-		background: #CAA67E;
+		background: linear-gradient(90deg, #BF9669 0%, #FCDCB9 49.21%, #BF9669 100%);
 		opacity: 0;
 	}
 	&:hover{
@@ -1113,7 +1114,7 @@ body{
 	padding: 15px 0;
 }
 .section-news{
-	padding-top: 50px;
+	padding-top: 95px;
 	background-image: url(./../img/84.png);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -2474,7 +2475,7 @@ body{
 	  overflow: hidden;
 	}
 	.box_img img{
-	  width: 100%;
+		opacity: 0.8;
 	}
 	.box_img:after{
 	  content: '';
@@ -2493,7 +2494,7 @@ body{
 		margin-bottom: 60px;
 	}
 	.form-element{
-		margin-top: 60px;
+		margin-top: 40px;
 	}
 }
 .section_img_project_title{
@@ -2551,6 +2552,8 @@ body{
 		.content-news{
 			.title-news{
 				h4{
+					margin-top: 20px;
+					margin-bottom: 20px;
 					a{
 						font-family: SVN-Poppins;
 						font-style: normal;
@@ -2577,6 +2580,7 @@ body{
 			.see-detail{
 				display: inline-block;
 				float: right;
+				margin-top: 70px;
 				a{
 					background: linear-gradient(90deg, #8D6139 -18.24%, #EECFA7 100%);
 					border-radius: 57px;
@@ -3064,7 +3068,7 @@ body{
 	background-repeat: no-repeat;
 }
 .vitrituyendung_element{
-	margin-top: -28%;
+	margin-top: -30%;
 	/*background: #fff;*/
 	.title-img-dark {
 		img{
@@ -3074,6 +3078,7 @@ body{
 }
 .form_vttd{
 	text-align: center;
+	margin-top: 30px;
 }
 .select_vttd{
 	width: 50%;
@@ -3154,7 +3159,7 @@ body{
 	margin: auto;
 	background: #fff;
 	margin-top: 35px;
-	margin-bottom: 70px;
+	margin-bottom: 0px;
 	tr{
 		&:first-child{
 			background: linear-gradient(90deg, #C6A177 0%, #FFE9D0 49.63%, #C79E70 99.27%) !important;
@@ -3311,6 +3316,7 @@ body{
 .section_detail_tuyendung{
 	.vitrituyendung_element{
 		margin-top: -16%;
+		padding-bottom: 70px;
 	}
 }
 .nav-tabs-news-thuvien{
@@ -3609,6 +3615,7 @@ body{
 			-webkit-line-clamp: 11;
 			-webkit-box-orient: vertical;
 			overflow: hidden;
+			margin-top: 30px;
 		}
 	}
 	.img_about_us{
@@ -3621,7 +3628,7 @@ body{
 	    	position: absolute;
 	    	content: url(./../img/123.png);
 	    	right: 0;
-	    	top: 0;
+	    	top: -70px;
 	    }
 	    &:after{
 	    		position: absolute;
@@ -3646,11 +3653,11 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
-	padding-top: 120px;
+	padding-top: 137px;
 	&:before{
 		position: absolute;
 		content: '';
-		background: #39384B;
+		background: #242335;
 		top: 0;
 		left: 0;
 		width: 100%;
@@ -3693,7 +3700,7 @@ body{
 	    		}
 	    	}
 	    	.text{
-	    		width: 65%;
+	    		width: 70%;
 	    		float: right;
 	    		padding-top: 50px;
     			padding-right: 100px;
@@ -3737,7 +3744,7 @@ body{
 	    		}
 	    	}
 	    	.text{
-	    		width: 65%;
+	    		width: 70%;
 	    		float: left;
 	    		padding-top: 50px;
     			padding-left: 100px;
@@ -3767,8 +3774,11 @@ body{
 	    	border-bottom: none;
 	    	.text{
 	    		p{
+	    			&:nth-child(5){
+	    				margin-top: 30px;
+	    			}
 	    			&:nth-child(n + 5){
-	    				margin-left: -315px;
+	    				margin-left: -275px;
 	    			}
 	    		}
 	    	}
@@ -3798,7 +3808,7 @@ body{
 			top: 50px;
 		}
 		.slick-next {
-		    right: 24px;
+		    right: 15px;
 		    background: #0000004d;
 		    width: 33px;
 		    height: 83px;
@@ -3810,7 +3820,7 @@ body{
 			}
 		}
 		.slick-prev {
-		    left: 0px;
+		    left: 15px;
 		    background: #0000004d;
 		    width: 33px;
 		    height: 83px;
@@ -4626,7 +4636,7 @@ body{
 				border: none;
 				width: auto;
 				margin-right: 10px;
-				width: 100%;
+				width: auto;
 				&:focus{
 					outline: none;
 				}

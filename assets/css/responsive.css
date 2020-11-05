@@ -23,6 +23,12 @@
 	.slider-homepage{
 		overflow: hidden;
 	}
+	.img_overview{
+		padding-left: 30px;
+	}
+	.section_img_project_title{
+		margin: 105px 0 50px 0;
+	}
 }
 
 /* css 1366  */
@@ -1453,13 +1459,13 @@
 }
 .slider-project .item:after {
 	content: '';
-	position: absolute;
-	width: 1100%;
-	height: 1100%;
-	top: 0;
-	right: -500%;
-	background: rgba(255,255,255,.8);
-	z-index: -1;
-	transform: rotate(45deg);
-	transform-origin: 48% 42%;
+    position: absolute;
+    width: 100px;
+    height: 140px;
+    top: -53px;
+    left: -49px;
+    background: #2e2e42;
+    z-index: 0;
+    transform: rotate(40deg);
+    transform-origin: 48% 42%;
 }
