@@ -1521,7 +1521,7 @@ body{
 	width: 100%;
     top: 48px;
     left: 0px;
-    z-index: 99;
+    z-index: 10000;
     .list-menu-mb{
     	width: 100%;
     }
@@ -2410,9 +2410,28 @@ body{
 	.img{
 		width: 14.5%;
 		overflow: hidden;
+		position: relative;
 		img{
 			max-width: 100%;
 		}
+	}
+	.box_img{
+	  position: relative;
+	  width: 100%;
+	  height: 40%;
+	  overflow: hidden;
+	}
+	.box_img img{
+	  width: 100%;
+	}
+	.box_img:after{
+	  content: '';
+	  position: absolute;
+	  width: 100%;
+	  height: 100%;
+	  top: 0;
+	  left: 0;
+	  background-image: linear-gradient(to bottom, rgb(255 255 255 / 62%), #e5e5e5);
 	}
 }
 .section_daily{
@@ -2536,13 +2555,9 @@ body{
 		display: inherit;
 	}
 	.slick-prev{
-		transform: rotateZ(180deg);
 		z-index: 1;
-		left: -30px;
+		left: -70px;
 		top: 90%;
-		img{			
-			filter: grayscale(1);
-		}
 		&:before{
 			display: none;
 		}
@@ -2556,6 +2571,7 @@ body{
 	}
 }
 .hot_new{
+	margin-top: 50px;
 	.row{
 		position: relative;
 		.post_hot_new{

@@ -72,7 +72,7 @@ $(document).ready(function(){
   $('.slider_hot_new').slick({
     dots: false,
     slidesToShow: 1,
-    prevArrow:"<button class='prev slick-prev'><img class='left-arrow ' src='./assets/img/91.png' alt=''></button>",
+    prevArrow:"<button class='prev slick-prev'><img class='left-arrow ' src='./assets/img/158.png' alt=''></button>",
     nextArrow:"<button class='next slick-next'><img class='right-arrow ' src='./assets/img/91.png' alt=''></button>",
   });
   $('.slider_giaithuong').slick({
