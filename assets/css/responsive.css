@@ -109,8 +109,39 @@
 	.section_3{
 		padding-top: 50px;
 	}
+	.text_right .text{
+		padding-top: 50px;
+	}
+	.table_mota tr th{
+		width: 25%;
+	}
+	.ungtuyen .btn-default{
+		margin-right: 15px;
+	}
+	.mota {
+	    padding-right: 30px;
+	}
+	.table_mota tr td{
+		padding: 10px;
+	}
+	.detail_tuyendungonline{
+		width: 95%;
+	}
+	.table_td_1, .table_td{
+		padding: 0 30px;
+	}
+	.banner_page h2{
+		top: 35%;
+	}
 }
 /* css 1366  */
+
+@media screen and (max-width: 1200px){
+	.contact-form{
+		margin-top: 30px;
+		width: 95%;
+	}
+}
 
 /* css ipad pro  */
 @media screen and (max-width: 1200px) and (min-width: 992px){
@@ -282,6 +313,25 @@
 	}
 	.new-item .content-news .see-detail a{
 		font-size: 16px;
+	}
+	.text_right .text, .text_left .text{
+		padding-top: 30px;
+	}
+	.text_right .text p, .text_left .text p{
+		margin-top: 30px;
+	}
+	.section_recruitment.text_left{
+		margin-top: 30px;
+	}
+	.mota{
+		padding-right: 15px;
+	}
+	.detail_tuyendungonline{
+		margin-top: 0;
+		width: 95%;
+	}
+	.table_td_1, .table_td{
+		padding: 0 15px;
 	}
 	
 }
@@ -631,6 +681,109 @@
 	.slider_hot_new .slick-next img, .slider_hot_new .slick-prev img{
 		max-width: 100%;
 	}
+	.title-img-dark{
+		padding: 0 15px;
+	}
+	.title-img-dark h2{
+		font-size: 22px;
+		width: 100%;
+	}
+	.select_vttd{
+		width: 90%;
+		background: #fff;
+	}
+	.select_vttd span:before{
+		display: none;
+	}
+	.table_tuyendung{
+		padding: 0 15px;
+	}
+	.table_tuyendung_1 tr th, .table_tuyendung_1 tr td{
+		font-size: 14px;
+		padding: 10px;
+	}
+	.select_vttd span{
+		width: 100%;
+	}
+	.select_vttd .btn_select{
+		position: inherit;
+		width: 100%;
+		top: auto;
+		left: auto;
+		transform: inherit;
+	}
+	.table_tuyendung_1{
+		width: 100%;
+		margin-top: 40px;
+		margin-bottom: 15px;
+	}
+	.table_tuyendung_1 tr th, .table_tuyendung_1 tr td {
+	    font-size: 10px;
+	    padding: 1px;
+	}
+	.recruitment_element .img_left:before, .recruitment_element .img_right:before{
+		display: none;
+	}
+	.text_right .text{
+		padding-top: 20px;
+	}
+	.section_recruitment.text_left{
+		margin-bottom: 30px;
+	}
+	.container{
+		margin: 0;
+		width: 100%;
+	}
+	.mota{
+		padding-right: 15px;
+	}
+	.table_mota tr th{
+		width: 25%;
+	}
+	.ungtuyen{
+		margin-bottom: 20px;
+	}
+	.img_vitri{
+		display: none;
+	}
+	.detail_tuyendungonline{
+		margin-top: 0;
+		width: 95%;
+	}
+	.table_td_1, .table_td{
+		padding: 0 15px;
+	}
+	.wrapper.avartar-td{
+		height: 150px;
+		width: 22%;
+	}
+	.wrapper.avartar-td .file-upload{
+		padding-top: 15%;
+	}
+	.detail_tuyendungonline{
+		padding-bottom: 30px;
+		margin-bottom: 30px;
+	}
+	.contact-form .form-left{
+		width: 100%;
+	}
+	.contact-form .info{
+		width: 100%;
+		padding: 55px;
+	}
+	.contact-form{
+		position: inherit;
+		display: inline-block;
+		width: 100%;
+		padding: 15px;
+	}
+	.contact-form:before{
+		display: none;
+	}
+	.section-contactform{
+		padding: 15px;
+	}
+
 }
 
 @media screen and (max-width: 576px){
@@ -1021,6 +1174,123 @@
 	}
 	.post_sidebar, .search_sidebar p{
 		font-size: 18px;
+	}
+	.text_right .text h2, .text_left .text h2{
+		font-size: 22px;
+	}
+	.text_right .text p, .text_left .text p{
+		margin-top: 20px;
+		font-size: 16px;
+	}
+	.text_left .text{
+		padding-top: 0;
+	}
+	.title_mota{
+		font-size: 18px;
+	}
+	.table_mota tr{
+		display: grid;
+		border: none;
+		margin-top: 25px;
+	}
+	.table_mota tr th, .table_mota tr td{
+		width: 100%;
+	}
+	.table_mota tr td{
+		padding: 0;
+	}
+	.table_mota{
+		margin:0 0 25px 0;
+	}
+	.head_td p{
+		margin: 0;
+	}
+	.head_td h2{
+		font-size: 18px;
+		margin: 0;
+	}
+	.head_td{
+		padding: 10px 0;
+	}
+	.table_td_1{
+		margin-top: 0;
+		display: inherit;
+	}
+	.table_td_1 .info_table{
+	    width: 100%;
+	}
+	.wrapper.avartar-td{
+		width: 50%;
+		margin:15px auto;
+		height: 200px;
+	}
+	.wrapper.avartar-td .file-upload{
+		padding-top: 30%;
+	}
+	.info_yourself tr{
+		display: inline-grid;
+		width: 100%;
+	}
+	.info_yourself tr th{
+		width: 100%;
+		border: none;
+	}
+	.info_yourself tr td{
+		width: 100%;
+		border-left: none;
+		border-right: none;
+	}
+	.table_td_1 .info_table h2{
+		font-size: 22px;
+	}
+	.info_yourself tr td input[type="radio"]{
+		width: auto;
+	}
+	.info_yourself .tuyendung td span input[type="checkbox"]{
+		width: auto;
+	}
+	.info_yourself tr td input[type="checkbox"]{
+		width: auto;
+	}
+	.tb_qtht tr{
+		display: grid;
+    	width: 100%;
+	}
+	.tb_qtht th{
+    	width: 100% !important;
+	}
+	.tb_qtht td{
+    	width: 100% !important;
+	}
+	.tb_3 th, .tb_3 td {
+	    border-top: 1px solid #6830c4db !important;
+	    border: none;
+	}
+	#table_6 tr, #table_6 th, #table_6 td{
+		border: 1px solid #6830c4db;
+	}
+	.contact-form .info{
+		padding: 0;
+		margin-top: 30px;
+	}
+	.contact-form .info .form-info{
+		padding: 10px;
+	}
+	.contact-form .info .form-info h2{
+		font-size: 18px;
+		margin: 0px;
+	}
+	.section_not_found .img{
+		height: 400px;
+	}
+	.section_not_found .img .btn_back{
+		max-width: 50%;
+	}
+	.section_not_found .container-width{
+		padding: 0 30px;
+	}
+	.section_not_found .container-width .form-element h3{
+		font-size: 16px;
 	}
 }
 
