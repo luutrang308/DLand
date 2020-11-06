@@ -426,7 +426,7 @@ body{
 	padding-top:30px;
 	.btn-seemore{
 		border: none;
-		width: 151px;
+		width: 170px;
 		height: 40px;
 		background: linear-gradient(90deg, #8D6139 -18.24%, #EECFA7 100%);
 		border-radius: 57px;
@@ -1028,6 +1028,9 @@ body{
 			}
 		}
 		.title-news{
+			h4{
+				margin-top: 0;
+			}
 			a{
 				font-family: SVN-Poppins;
 			    font-style: normal;
@@ -1189,7 +1192,7 @@ body{
     border-radius: 5px;
     display: inline-block;
     width: 100%;
-    padding: 30px 72px 20px 100px;
+    padding: 30px 72px 35px 100px;
     margin-bottom: -50px;
 	.text{
 		width: 45%;
@@ -2074,7 +2077,7 @@ body{
 	overflow: hidden;
 	padding: 0;
 	background: #fff;
-	margin: 10px 0;
+	margin: 15px 0;
 	.img{
 		overflow: hidden;
 		img{
@@ -2189,7 +2192,7 @@ body{
 			font-family: SVN-Poppins;
 			font-style: normal;
 			font-size: 18px;
-			line-height: 19px;
+			line-height: 28px;
 			color: #494D52;
 			position: relative;
 			padding-left: 25px;
@@ -2218,6 +2221,7 @@ body{
 			align-items: center;
 			color: #FFFFFF;
 			border: none;
+			padding-left: 20px;
 			img{
 				margin-left: 10px;
 			}
@@ -2317,7 +2321,7 @@ body{
 			font-style: normal;
 			font-weight: bold;
 			font-size: 18px;
-			line-height: 19px;
+			line-height: 28px;
 			color: #494D52;
 			padding: 15px 0;
 		}
@@ -2326,7 +2330,7 @@ body{
 			font-style: normal;
 			font-weight: normal;
 			font-size: 18px;
-			line-height: 19px;
+			line-height: 28px;
 			color: #494D52;
 			display: flex;
 			justify-content: space-between;
@@ -2520,12 +2524,19 @@ body{
 .slider_hot_new{
 	width: 100%;
     float: right;
+    .new_item_slide{
+    	position: relative;
+    }
 	.item{
 		overflow: hidden;
 		background: #242335;
 		box-shadow: 7px 9px 27px rgba(0, 0, 0, 0.15);
 		padding: 65px 45px 65px 65px;
-		position: relative;
+		position: absolute !important;
+		right:0;
+		top:50%;
+		transform: translate(0, -50%);
+		width: 50%;
 		&:before{
 			position: absolute;
 			content: url(./../img/92.png);
@@ -2612,15 +2623,15 @@ body{
 	}
 	.slick-prev{
 		z-index: 1;
-		left: -70px;
-		top: 90%;
+		left: 45%;
+		top: 80%;
 		&:before{
 			display: none;
 		}
 	}
 	.slick-next {
-	    right: 95%;
-	    top: 90%;
+	    right: 47%;
+	    top: 80%;
 	    &:before{
 			display: none;
 		}
@@ -2631,11 +2642,11 @@ body{
 	.row{
 		position: relative;
 		.post_hot_new{
-			position: absolute;
+			/*position: absolute;
 		    top: 50%;
 		    right: 0;
 		    width: 700px;
-		    transform: translate(0 , -50%);
+		    transform: translate(0 , -50%);*/
 		}
 	}
 }
@@ -2643,6 +2654,10 @@ body{
 	width: 68%;
 	height: 698px;
 	overflow: hidden;
+	position: relative;
+	.item{
+		
+	}
 }
 .section-news.section-news_5{
 	.nav-tabs-news{
@@ -2747,6 +2762,7 @@ body{
     flex-flow: row wrap;
     margin-top: 35px;
     margin-bottom: 80px;
+    box-shadow: 0px 1px 10px #0000001f;
     .breadcrumb-page{
     	width: 100%;
     }
@@ -2763,6 +2779,7 @@ body{
 	    line-height: 129.5%;
 	    color: #35335F;
 	    text-transform: uppercase;
+	    margin-top: 5px;
 	}
 	.date-dervice{
 		padding: 0;
@@ -3185,6 +3202,19 @@ body{
 			line-height: 19px;
 			color: #494D52;
 			padding: 30px 40px 20px 40px;
+			a{
+				font-family: SVN-Poppins;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 18px;
+				line-height: 19px;
+				color: #494D52;
+				padding: 0;
+				&:hover{
+					text-decoration: none;
+					color: #494D52;
+				}
+			}
 		}
 	}
 }
@@ -3196,7 +3226,7 @@ body{
 }
 .btn-default{
 	border: none;
-	width: 151px;
+	width: 170px;
 	height: 40px;
 	background: linear-gradient(90deg, #8D6139 -18.24%, #EECFA7 100%);
 	border-radius: 57px;
@@ -4741,6 +4771,24 @@ body{
 		}
 	}
 }
+.tb_3 .tb_qtht{
+	margin-bottom: 25px;
+}
+.tb_btn{
+	position: relative;
+	.btn_loadmore{
+		position: absolute;
+	    right: -30px;
+	    bottom: -30px;
+	    border: none;
+	    &:hover{
+	    	cursor: pointer;
+	    }
+	    td{
+	    	border: none;
+	    }
+	}
+}
 .tb_3{
 	.tb_qtht,th,td{
 		border: 1px solid #6830C4;
@@ -4752,6 +4800,8 @@ body{
 		font-size: 18px;
 		line-height: 19px;
 		color: #242335;
+		margin-top: 25px;
+		margin-bottom: 15px;
 	}
 }
 .gtct{
