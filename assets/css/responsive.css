@@ -1524,3 +1524,11 @@
     transform: rotate(40deg);
     transform-origin: 48% 42%;
 }
+
+
+.preview_img{
+	cursor: default;
+}
+.preview_img .close_preview_img{
+	cursor: pointer;
+}
