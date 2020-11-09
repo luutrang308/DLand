@@ -184,17 +184,19 @@ $(document).ready(function() {
         $('.table_load_2 table').prepend('<tr>                                     <th>Từ</th>                                     <th> <input type="text"> </th>                                     <th>Đến</th>                                     <td> <input type="text"> </td>                                     <th>Tên công ty</th>                                     <td colspan="3"> <input type="text"> </td>                                 </tr>                                 <tr>                                     <th>Vị trí</th>                                     <td colspan="3"> <input type="text"> </td>                                     <th>Mức lương</th>                                     <td colspan="3"> <input type="text"> </td>                                 </tr>                                 <tr>                                     <th colspan="4">Mô tả ngắn gọn các công việc và thành tích đạt được. Nếu là quản lý, ghi rõ số nhân viên đã quản lý.</th>                                     <th colspan="3"> Lý do nghỉ việc </th>                                 </tr>                                 <tr>                                     <td colspan="4"> <input type="text"> </td>                                     <td colspan="3"> <input type="text"> </td>                                 </tr>');
     });*/
     $(".detail_tuyendungonline").on('click', '.btn_loadmore', function(){
-        var elmButton = $(this);
-        var numRowTr = elmButton.attr('data-num-row-get') || 1;
-        var step = 1;
-        var aryElmGet = [];
+        var numRowTr    = $(this).attr('data-num-row-get') || 1;
+        var $this       = $(this).prev().find("tr:last-child");
+        var elmButton   = $this;
+        var step        = 1;
+        var aryElmGet   = [];
+        
         while(step <= numRowTr){
             elmButton = elmButton.prev();
             aryElmGet.push(elmButton[0]);
             step++;
         }
         for(var trTag of aryElmGet.reverse()){
-            $(this).before(trTag.outerHTML);
+            $this.before(trTag.outerHTML);
         }
     });
 
