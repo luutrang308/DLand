@@ -4977,3 +4977,53 @@ body {
 .t1 .info_yourself tr:nth-child(18) td span input[type=text] {
   width: 20px !important;
 }
+
+.wrapper.file_hs {
+  width: 100%;
+  background: #FFFFFF;
+  border-bottom: 1px solid #c4c4c4;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 25px 0 10px 0;
+}
+.wrapper.file_hs:hover {
+  cursor: pointer;
+}
+.wrapper.file_hs .file-upload {
+  width: 100%;
+  border-radius: 100px;
+  position: relative;
+  display: inline-block;
+}
+.wrapper.file_hs .file-upload input[type=file] {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.wrapper.file_hs .file-upload p {
+  font-family: SVN-Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848484;
+  margin: 0;
+  width: auto;
+  float: left;
+}
+.wrapper.file_hs .file-upload p:last-child {
+  float: right;
+  color: #B08350;
+}
+.wrapper.file_hs .file-upload img {
+  width: auto;
+  float: left;
+  position: absolute;
+  right: 30%;
+}

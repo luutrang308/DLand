@@ -5076,3 +5076,57 @@ body{
 		}
 	}
 }
+.wrapper.file_hs{
+	width: 100%;
+    background: #FFFFFF;
+    border-bottom: 1px solid #c4c4c4;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 25px 0 10px 0;
+	  &:hover{
+	  	cursor: pointer;
+	  }
+  
+
+  .file-upload{
+    width:100%;
+    border-radius: 100px;
+    position:relative;
+    display: inline-block;
+
+    input[type='file']{
+
+      height:100%;
+      width:100%;
+      position:absolute;
+      top:0;
+      left:0;
+      opacity:0;
+      cursor:pointer;
+
+    }
+    p{
+    	font-family: SVN-Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 150%;
+		color: #848484;
+		margin: 0;
+		width: auto;
+		float: left;
+		&:last-child{
+			float: right;
+			color: #B08350;
+		}
+    }
+    img{
+    	width: auto;
+		float: left;
+		position: absolute;
+		right: 30%;
+    }
+  }
+}
