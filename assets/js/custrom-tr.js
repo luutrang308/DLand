@@ -72,12 +72,12 @@ $(document).ready(function() {
             }
         }, ]
     });
-    $('.slider_hot_new').slick({
+    /*$('.slider_hot_new').slick({
         dots: false,
         slidesToShow: 1,
         prevArrow: "<button class='prev slick-prev'><img class='left-arrow ' src='./assets/img/158.png' alt=''></button>",
         nextArrow: "<button class='next slick-next'><img class='right-arrow ' src='./assets/img/91.png' alt=''></button>",
-    });
+    });*/
     $('.slider_giaithuong').slick({
         dots: true,
         slidesToShow: 4,
@@ -200,6 +200,23 @@ $(document).ready(function() {
         }
     });
 
+    $('.slide_for').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.slide_nav'
+    });
+    $('.slide_nav').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        asNavFor: '.slide_for',
+        dots: false,
+        centerMode: false,
+        focusOnSelect: true,
+        prevArrow: "<button class='prev slick-prev'><img class='left-arrow ' src='./assets/img/158.png' alt=''></button>",
+        nextArrow: "<button class='next slick-next'><img class='right-arrow ' src='./assets/img/91.png' alt=''></button>",
+    });
 
 
 
