@@ -3479,6 +3479,7 @@ body{
 				border: none;
 				border-bottom: 1px solid #E2E2E2;
 				height: 170px;
+				line-height: 1.25;
 				padding-top: 25px;
 				&::placeholder{
 					font-family: SVN-Poppins;
@@ -4701,6 +4702,13 @@ body{
 	width: 100%;
 	border: 1px solid #6830C4;
 	tr{
+		&:nth-child(12){
+			td{
+				input{
+					width: 50px;
+				}
+			}
+		}
 		th{
 			font-family: SVN-Poppins;
 			font-style: normal;
@@ -4734,6 +4742,15 @@ body{
 					outline: none;
 				}
 			}
+			textarea{
+				width: 100%;
+				border: none;
+				padding: 0;
+    			margin-top: 5px;
+				&:focus{
+					outline: 0;
+				}
+			}
 		}
 	}
 	.tuyendung{
@@ -4758,6 +4775,9 @@ body{
 		line-height: 22px;
 		color: #242335;
 		text-transform: uppercase;
+		span{
+			color: red;
+		}
 	}
 }
 .button_next{
@@ -5029,7 +5049,7 @@ body{
 		font-style: normal;
 		font-weight: 500;
 		font-size: 16px;
-		line-height: 17px;
+		line-height: 25px;
 		color: #242335;
 		width: 12.5%;
 		padding:10px;
@@ -5045,6 +5065,7 @@ body{
 		width: 12.5%;
 		height: 145px;
 		textarea{
+			padding: 15px;
 			width: 100%;
 			height: 100%;
 			border: none;
@@ -5069,7 +5090,8 @@ body{
 					display: flex;
 					float:left;
 					input[type="text"]{
-						width: 20px !important;
+						width: 35px !important;
+						margin-left: 10px;
 					}
 				}
 			}
@@ -5129,4 +5151,67 @@ body{
 		right: 30%;
     }
   }
+}
+table tr td input[type=radio] {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+table tr td input[type=radio]:checked:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  background-color: #CAA67E;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  transform: translate(-50%, -50%);
+}
+table tr td input[type=radio]:before {
+  width: 16px;
+  height: 16px;
+  border-radius: 15px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background-color: transparent;
+  border: 1px solid #CAA67E;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+}
+table tr td input[type=checkbox] {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+table tr td input[type=checkbox]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  background-color: #CAA67E;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  transform: translate(-50%, -50%);
+  font-family: fontawesome;
+}
+table tr td input[type=checkbox]:before {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background-color: transparent;
+  border: 1px solid #CAA67E;
+  content: "";
+  display: inline-block;
+  visibility: visible;
 }

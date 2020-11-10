@@ -3421,6 +3421,7 @@ body {
   border: none;
   border-bottom: 1px solid #E2E2E2;
   height: 170px;
+  line-height: 1.25;
   padding-top: 25px;
 }
 .contact-form .form-left form textarea::placeholder {
@@ -4614,6 +4615,9 @@ body {
   width: 100%;
   border: 1px solid #6830C4;
 }
+.info_yourself tr:nth-child(12) td input {
+  width: 50px;
+}
 .info_yourself tr th {
   font-family: SVN-Poppins;
   font-style: normal;
@@ -4648,6 +4652,15 @@ body {
 .info_yourself tr td input:focus {
   outline: none;
 }
+.info_yourself tr td textarea {
+  width: 100%;
+  border: none;
+  padding: 0;
+  margin-top: 5px;
+}
+.info_yourself tr td textarea:focus {
+  outline: 0;
+}
 .info_yourself .tuyendung td span {
   width: 50%;
   float: left;
@@ -4667,6 +4680,9 @@ body {
   line-height: 22px;
   color: #242335;
   text-transform: uppercase;
+}
+.table_td h3 span {
+  color: red;
 }
 
 .button_next {
@@ -4938,7 +4954,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 17px;
+  line-height: 25px;
   color: #242335;
   width: 12.5%;
   padding: 10px;
@@ -4955,6 +4971,7 @@ body {
   height: 145px;
 }
 .nl td textarea {
+  padding: 15px;
   width: 100%;
   height: 100%;
   border: none;
@@ -4975,7 +4992,8 @@ body {
   float: left;
 }
 .t1 .info_yourself tr:nth-child(18) td span input[type=text] {
-  width: 20px !important;
+  width: 35px !important;
+  margin-left: 10px;
 }
 
 .wrapper.file_hs {
@@ -5026,4 +5044,73 @@ body {
   float: left;
   position: absolute;
   right: 30%;
+}
+
+table tr td input[type=radio] {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+
+table tr td input[type=radio]:checked:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  background-color: #CAA67E;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  transform: translate(-50%, -50%);
+}
+
+table tr td input[type=radio]:before {
+  width: 16px;
+  height: 16px;
+  border-radius: 15px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background-color: transparent;
+  border: 1px solid #CAA67E;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+}
+
+table tr td input[type=checkbox] {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+
+table tr td input[type=checkbox]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 2px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  background-color: #CAA67E;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  transform: translate(-50%, -50%);
+  font-family: fontawesome;
+}
+
+table tr td input[type=checkbox]:before {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  background-color: transparent;
+  border: 1px solid #CAA67E;
+  content: "";
+  display: inline-block;
+  visibility: visible;
 }
