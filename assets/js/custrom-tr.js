@@ -217,6 +217,9 @@ $(document).ready(function() {
         prevArrow: "<button class='prev slick-prev'><img class='left-arrow ' src='./assets/img/158.png' alt=''></button>",
         nextArrow: "<button class='next slick-next'><img class='right-arrow ' src='./assets/img/91.png' alt=''></button>",
     });
+    $('.close_video_intro').click(function(){
+        $('.section_video_intro').css('display',' none');
+    });
 
 
 
