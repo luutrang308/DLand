@@ -127,6 +127,16 @@
         </div>  
     </div>
 </header>
+
+<div class="section_video_intro">
+    <div class="close_video_intro">
+        <span> X </span>
+    </div>
+    <div class="element_video">
+        <!-- anh cho video vào đây nhé :v , e cho cái này ?rel=0&autoplay=1 vào sau mà nó cũng không tự động phát ạ-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jTyVIYGbQwU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
 <div class="section-slider wow fadeIn" data-wow-delay="200ms">
     <div class="slider-homepage">
         <div class="item">
@@ -501,7 +511,21 @@
                         <span>
                             <input type="text" name="" placeholder="Email">
                         </span>
-                        <a href="" class="btn btn-contact">đĂNG KÝ</a>
+                        <a href="" class="btn btn-contact" data-toggle="modal" data-target="#submit_btn_footer">đĂNG KÝ</a>
+                        <!-- Modal -->
+                            <div class="modal fade modal_popup_submit" id="submit_btn_footer" tabindex="-1" role="dialog" aria-hidden="true">
+                              <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true"><img src="./assets/img/119.png" alt=""></span>
+                                    </button> -->
+                                    <div class="modal-body">
+                                        <img src="./assets/img/118.png" alt="">
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Button trigger modal -->
                     </form>
                 </div>
             </div>

@@ -1320,6 +1320,9 @@ body{
 	    	color: #F6E7CE;
 	    }
 	}
+	.modal button span:before, .modal button span:after{
+		display: none;
+	}
 }
 .footer-pc{
 	background-image: url(../img/27.jpg);
@@ -5465,7 +5468,7 @@ table tr td input[type=checkbox]:before {
 	width: 100%;
 	height: 100%;
 	background: rgba(19, 19, 19, 0.3);
-	z-index: 1;
+	z-index: 100000;
 	.element_video{
 		width: 70%;
 		height: 80%;
@@ -5497,4 +5500,14 @@ table tr td input[type=checkbox]:before {
 			line-height: 50px;
 		}
 	}
+}
+.fix {
+    left: 0;
+    max-width: 100%;
+    overflow: visible;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff;
 }
