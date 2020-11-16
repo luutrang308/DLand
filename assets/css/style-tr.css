@@ -33,6 +33,28 @@ body {
   list-style: none;
   float: left;
   padding: 0 20px;
+  position: relative;
+}
+.main-menu li ul {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  opacity: 0;
+  width: 200px;
+  background: #242335;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.main-menu li ul li {
+  padding: 15px 0;
+  width: 100%;
+}
+.main-menu li:hover ul {
+  opacity: 1;
+  visibility: visible;
+  z-index: 999000;
 }
 .main-menu li a {
   font-family: times;
