@@ -1515,12 +1515,14 @@ body {
 
 .form-mobi {
   position: relative;
+  margin-bottom: 10px;
 }
 .form-mobi input {
   background: rgba(255, 255, 255, 0.3);
   border-radius: 30px;
   padding: 7px 10px;
   border: 1px solid transparent;
+  width: 100%;
 }
 .form-mobi input:focus {
   outline: 0;
@@ -1594,6 +1596,7 @@ body {
   top: 48px;
   left: 0px;
   z-index: 10000;
+  height: 100%;
 }
 .sub-menu .list-menu-mb {
   width: 100%;
